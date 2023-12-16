@@ -1,0 +1,76 @@
+
+
+.first-page img{
+    width: 100%;
+    height: auto;
+}
+
+.about-mac{
+    background-color: whitesmoke;
+    padding: 40px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+
+.left-side{
+    display: flex;
+    background-color: white;
+}
+
+.img{
+    width: 50%;
+}
+
+.img img{
+    width: 100%;
+}
+
+.more-img {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.more-img img{
+    /* margin-left: 25px; */
+    width: 25%;
+    border-bottom: 2px solid #FFB200;  
+    transition: 0.5s;
+}
+
+.right-side .more-img img{
+    margin-right: 25px;
+    width: 25%;
+    transition: 0.5s;
+}
+
+.more-img img:hover{
+    transform: scale(1.5);
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.46);
+    border-radius: 5px; 
+    border:none;
+}
+
+h1,h2,h3{
+    color:#FFB200;
+    padding-bottom: 10px;
+}
+.description{
+    padding: 35px;
+    text-align: justify;
+    font-size: 18px;
+    width: 50%;
+}
+
+.description p{
+    padding-top:0 20px;
+}
+
+.description ul,ol{
+    padding-left: 20px;
+}
+.right-side{
+    display: flex;
+    background-color: whitesmoke;
+}
